@@ -2,7 +2,7 @@
 import random
 import string
 
-def gerar_senha(tamanho=12, incluir_maiusculas=True, incluir_numeros=True, incluir_especiais=True):
+def gerar_senha(tamanho=16, incluir_maiusculas=True, incluir_numeros=True, incluir_especiais=True):
     # Definir os conjuntos de caracteres a serem usados
     caracteres = string.ascii_lowercase  # Letras minúsculas
     
